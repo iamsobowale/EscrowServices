@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BSwKPLOHKy8MgdZ9ye/zAGLaG/WIgwby+VHazTcL3sshAmh70BQirdGK2nvjUsvGAOkMtZuiuHHcaA7U/xLIhQ==",
+  "dgSpecHash": "+0Qn5TzHkxj4VpGgsTZdQQW0zuTDt0VXN/2nR5WxN2+6vST2nevL3yHcUpObHfwrbxrB3ptz6G+cqyNlcn3Z6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iamso\\Desktop\\System\\EscrowServices\\EscrowServices\\EscrowServices.csproj",
+  "projectFilePath": "C:\\Users\\iamso\\RiderProjects\\EscrowServices\\EscrowServices\\EscrowServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iamso\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\iamso\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",

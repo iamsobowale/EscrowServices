@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iamso\\Desktop\\System\\EscrowServices\\EscrowServices\\EscrowServices.csproj": {}
+    "C:\\Users\\iamso\\RiderProjects\\EscrowServices\\EscrowServices\\EscrowServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iamso\\Desktop\\System\\EscrowServices\\EscrowServices\\EscrowServices.csproj": {
+    "C:\\Users\\iamso\\RiderProjects\\EscrowServices\\EscrowServices\\EscrowServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamso\\Desktop\\System\\EscrowServices\\EscrowServices\\EscrowServices.csproj",
+        "projectUniqueName": "C:\\Users\\iamso\\RiderProjects\\EscrowServices\\EscrowServices\\EscrowServices.csproj",
         "projectName": "EscrowServices",
-        "projectPath": "C:\\Users\\iamso\\Desktop\\System\\EscrowServices\\EscrowServices\\EscrowServices.csproj",
+        "projectPath": "C:\\Users\\iamso\\RiderProjects\\EscrowServices\\EscrowServices\\EscrowServices.csproj",
         "packagesPath": "C:\\Users\\iamso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamso\\Desktop\\System\\EscrowServices\\EscrowServices\\obj\\",
+        "outputPath": "C:\\Users\\iamso\\RiderProjects\\EscrowServices\\EscrowServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamso\\AppData\\Roaming\\NuGet\\NuGet.Config"

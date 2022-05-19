@@ -8,6 +8,7 @@ namespace EscrowServices.Models
         public string LastName { get; set; }
         public int AccountNumber { get; set; }
         public string AccountName { get; set; }
+        public string Gender { get; set; }
         public string BankName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }

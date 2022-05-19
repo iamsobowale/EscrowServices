@@ -1,8 +1,9 @@
+using EscrowServices.Auditable;
+
 namespace EscrowServices.Models
 {
-    public class Dispute
+    public class Dispute:AuditableEntity
     {
-        public int Id { get; set; }
         public int AdminId { get; set; }
         public Admin Admin { get; set; }
         public int TransactionId { get; set; }
