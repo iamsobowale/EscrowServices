@@ -17,3 +17,35 @@ public class TradersDto
     public string State { get; set; }
     public string Country { get; set; }
 }
+public class CreateTraderRequestModel
+{
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+    public string Gender { get; set; }
+    public string Phone { get; set; }
+    public DateTime Dob { get; set; }
+    public string City { get; set; }
+    public string State { get; set; }
+    public string Country { get; set; }
+}
+public class TradersResponseModel:BaseResponse
+{
+    public TradersDto Traders { get; set; }
+}
+
+public class TraderResponsesModel:BaseResponse
+{
+    public IEnumerable<AdminDto> Admin { get; set; }
+}
+
+public class TraderUpdateRequestModel
+{
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+    public string City { get; set; }
+    public string Phone { get; set; }
+    public string State { get; set; }
+    public string Country { get; set; }
+}

@@ -10,3 +10,17 @@ public class UserDto
     public string Phone { get; set; }
     public Role Role { get; set; }
 }
+
+public class UserLoginRequest
+{
+    public string UserName{get; set;}
+    public string Password{get; set;}
+}
+public class UserResponseModel : BaseResponse
+{
+    public UserDto Data{get;set;}
+}
+public class UsersResponseModel : BaseResponse
+{
+    public List<UserDto> Data{get;set;}
+}
