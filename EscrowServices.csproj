@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Implementation" />
-    <Folder Include="Interfaces" />
+    <Folder Include="Implementation\Services" />
+    <Folder Include="Interfaces\IServices" />
   </ItemGroup>
 </Project>

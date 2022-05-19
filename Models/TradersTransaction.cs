@@ -2,7 +2,7 @@ using EscrowServices.Auditable;
 
 namespace EscrowServices.Models;
 
-public class TradersTransaction:AuditableEntity
+public class TradersTransaction:BaseEntities
 {
     public int UserId { get; set; }
     public User User { get; set; }

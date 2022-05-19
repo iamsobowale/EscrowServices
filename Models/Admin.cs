@@ -2,7 +2,7 @@ using EscrowServices.Auditable;
 
 namespace EscrowServices.Models
 {
-    public class Admin:AuditableEntity
+    public class Admin:BaseEntities
     {
         public string Name { get; set; }
         public string Email { get; set; }

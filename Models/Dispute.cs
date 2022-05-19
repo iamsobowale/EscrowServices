@@ -2,7 +2,7 @@ using EscrowServices.Auditable;
 
 namespace EscrowServices.Models
 {
-    public class Dispute:AuditableEntity
+    public class Dispute:BaseEntities
     {
         public int AdminId { get; set; }
         public Admin Admin { get; set; }

@@ -2,7 +2,7 @@ using EscrowServices.Auditable;
 
 namespace EscrowServices.Models;
 
-public class Payment:AuditableEntity
+public class Payment:BaseEntities
 {
     public int PaymentMethodId { get; set; }
     public PaymentMethod PaymentMethod { get; set; }

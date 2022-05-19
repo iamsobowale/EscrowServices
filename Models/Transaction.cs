@@ -2,7 +2,7 @@ using EscrowServices.Auditable;
 
 namespace EscrowServices.Models;
 
-public class Transaction:AuditableEntity
+public class Transaction:BaseEntities
 {
     public string BuyerId { get; set; }
     public string SellerId { get; set; }
