@@ -25,3 +25,12 @@ public class CreateTransactionRequestModel
     public string ItemQuantity { get; set; }
     public string ItemDoc { get; set; }
 }
+public class TransactionResponseModel:BaseResponse
+{
+    public TransactionDto Transaction { get; set; }
+}
+public class TransactionResponsesModel:BaseResponse
+{
+    public IEnumerable<TransactionDto> Transactions { get; set; }
+}
+

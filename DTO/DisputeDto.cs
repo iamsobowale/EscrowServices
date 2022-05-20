@@ -19,3 +19,18 @@ public class DisputeDto
     public decimal ItemPrice { get; set; }
     public DateTime CreatedDate { get; set; }
 }
+public class CreateDisputeRequestModel
+{
+    public int AdminId { get; set; }
+    public int TransactionId { get; set; }
+    public string Reason { get; set; }
+    public string Description { get; set; }
+}
+public class DisputeResponseModel:BaseResponse
+{
+    public DisputeDto Dispute { get; set; }
+}
+public class DisputeResponsesModel:BaseResponse
+{
+    public IEnumerable<DisputeDto> Disputes { get; set; }
+}
